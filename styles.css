@@ -1,5 +1,9 @@
 :root {
-
+    --lavender-web: hsla(240, 63%, 91%, 1);
+    --african-violet: hsla(272, 40%, 69%, 1);
+    --rose-quartz: hsla(300, 7%, 56%, 1);
+    --davys-gray: hsla(248, 5%, 30%, 1);
+    --raisin-black: hsla(240, 8%, 19%, 1);
 }
 
 body {
@@ -66,4 +70,18 @@ img {
     color:hsl(169, 10%, 41%);
     text-decoration: none;
     padding-left: 10px;
+}
+
+.nav-button {
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+    border-style: solid;
+    border-color: (--raisin-black);
+    border-radius: 5px;
+    display: none;
+}
+.nav-button img {
+    width: 40px;
+
 }
