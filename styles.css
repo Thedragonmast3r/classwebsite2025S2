@@ -4,6 +4,7 @@
     --rose-quartz: hsla(300, 7%, 56%, 1);
     --davys-gray: hsla(248, 5%, 30%, 1);
     --raisin-black: hsla(240, 8%, 19%, 1);
+    color-scheme: light dark;
 }
 
 body {
@@ -16,10 +17,10 @@ a {
     font-size: 120%;
 }
 a:link {
-    color:darkkhaki;
+    color:rgb(0, 0, 0);
 }
 a:visited {
-    color:gold;
+    color:rgb(20, 118, 184);
 }
 a:hover {
     color:white;
@@ -84,4 +85,23 @@ img {
 .nav-button img {
     width: 40px;
 
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+    max-width: 100%;
+}
+
+#search input {
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#search button {
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 0px 5px 5px 0px;
 }
