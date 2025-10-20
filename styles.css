@@ -73,6 +73,9 @@ img {
     padding-left: 10px;
 }
 
+.navigation a:hover {
+    color: rgb(133, 214, 108)
+}
 .nav-button {
     background-color: transparent;
     width: 44px;
@@ -104,4 +107,13 @@ img {
     padding: 10px;
     border: solid 1px;
     border-radius: 0px 5px 5px 0px;
+}
+
+.sr-only {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
 }
