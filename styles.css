@@ -54,6 +54,8 @@ img {
     align-items: center;
     background-color: rgb(174, 173, 230);
     flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo {
