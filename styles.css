@@ -184,6 +184,13 @@ nav a {
     flex-direction: row;
     gap: 1em;
 }
+.card-container.contact {
+    min-width: none;
+    flex-wrap: wrap;
+}
+.card-container.contact.card {
+    min-width: 200px
+}
 .card img {
     max-width: 100%;
 }
@@ -192,7 +199,7 @@ nav a {
 }
 .card {
     flex: 1;
-    background-color:white;
+    background-color:rgb(105, 104, 104);
     border: 1px solid;
     border-radius: 10px;
     overflow: hidden;
@@ -216,4 +223,23 @@ nav a {
     align-items: center;
     /*background: linear-gradient( 45deg, red, yellow, green );*/
     background: radial-gradient(circle, brown, yellow );
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input {
+    margin-bottom: 0.5em;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.contact-form button {
+    min-width: auto;
+}
+.contact-details a {
+    color: var(--hookers-green);
+    font-size: medium;
 }
