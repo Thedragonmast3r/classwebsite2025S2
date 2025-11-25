@@ -86,7 +86,7 @@ img {
     width: 44px;
     height: 44px;
     border-style: solid;
-    border-color: (--raisin-black);
+    border-color: var(--raisin-black);
     border-radius: 5px;
     display: none;
 }
@@ -147,7 +147,7 @@ overflow:hidden;
 }
 .slide:nth-child(1) {
     background-image: url(images/slides/Halloween_Banner.jpg);
-    color: rgb(orange);
+    color: orange;
 }
 nav a {
     text-decoration: none;
@@ -185,7 +185,7 @@ nav a {
     gap: 1em;
 }
 .card-container.contact {
-    min-width: none;
+    min-width: auto;
     flex-wrap: wrap;
 }
 .card-container.contact.card {
